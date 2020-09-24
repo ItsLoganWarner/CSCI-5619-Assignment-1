@@ -12,13 +12,19 @@ The objective of this assignment is twofold:
 
 You should fill out this information before submitting your assignment.  Make sure to document the name and source of any third party assets such as 3D models, textures, or any other content used that was not solely written by you.  Include sufficient detail for the instructor or TA to easily find them, such as asset store or download links.
 
-Name: 
+Name: Logan Warner
 
-UMN Email:
+UMN Email: warne591@umn.edu
 
-Build URL:
+Build URL: http://www-users.cselabs.umn.edu/~warne591/Assignment1/dist/
 
 Third Party Assets:
+-Grass https://filecache.garrysmods.org/34512/2/1024x768.jpg
+-Hay https://thumbs.dreamstime.com/b/hay-texture-15801839.jpg
+-Farmer https://www.cgtrader.com/free-3d-models/character/man/low-poly-worker-man
+-Ufo https://www.cgtrader.com/free-3d-models/aircraft/other/low-poly-ufo-6c16e512-00db-441c-87cd-61ea644707ee
+-wood https://images.unsplash.com/photo-1525034687081-c702010cb70d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80
+-metal https://lh3.googleusercontent.com/proxy/tv1wScE76gcExAG-qUQKzXeNhDYXWk4EVdVmbyHsu042h3mQlwIUy39LyFddsbGgQqAVoOzt30Ymm_wcR8IszRBJ4bDlcGhLJ6F2zWtTziImTHBCASRmPchUd9_IZk30li0CY9pxALaZuSc
 
 ## Rubric
 
@@ -56,7 +62,7 @@ To work with this sample and prepare your submission, you should have Node.js in
 
 In addition to Node, you should make sure a recent (e.g., version 3.9 or later) version of Typescript is installed.  The easiest way to do this is by executing `npm install --global typescript`.
 
-## Local Development 
+## Local Development
 
 After checking out the project, you need to initialize by pulling the dependencies with:
 ```
@@ -84,8 +90,8 @@ This will generate an `index.html` file and a Babylon bundle in the `dist` subdi
 
 To complete the final step in this assignment, you will need to set up a public `.www` directory in your CSE Labs account and follow these steps:
 
-1. If you don’t already have a CSE Labs account, you should [request one from CSE-IT](https://cseit.umn.edu/knowledge-help/account-access) (do this now). 
-2. Log in to your CSE Labs account using [SSH](https://cseit.umn.edu/knowledge-help/learn-about-ssh) or [VOLE](https://vole.cse.umn.edu/). 
+1. If you don’t already have a CSE Labs account, you should [request one from CSE-IT](https://cseit.umn.edu/knowledge-help/account-access) (do this now).
+2. Log in to your CSE Labs account using [SSH](https://cseit.umn.edu/knowledge-help/learn-about-ssh) or [VOLE](https://vole.cse.umn.edu/).
 3. Follow the instructions to [set up your homepage](https://cseit.umn.edu/knowledge-help/homepages-cs-cselabs) provided by CSE-IT. You should now be able to access your web folder by opening `http://www-users.cselabs.umn.edu/~<username>/` in a web browser.
 4. [Copy](https://cseit.umn.edu/knowledge-help/transfer-file) the contents of your project's `dist` folder to a subdirectory within the `.www` folder of your CSE Labs account.
 5. Make sure to set the [public permissions](https://cseit.umn.edu/knowledge-help/homepages-cs-cselabs) so that the directory is executable and files are readable.
